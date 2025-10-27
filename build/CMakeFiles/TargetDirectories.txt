@@ -1,0 +1,3 @@
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build/CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build/CMakeFiles/edit_cache.dir
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build/CMakeFiles/rebuild_cache.dir
