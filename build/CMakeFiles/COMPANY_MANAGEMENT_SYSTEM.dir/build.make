@@ -71,117 +71,123 @@ include CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
 CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/codegen:
 .PHONY : CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/codegen
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Person.cpp
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Person.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Person.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Person.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Person.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Person.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Person.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Person.cpp
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Person.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Person.cpp.i
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Person.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Person.cpp.i
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Person.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Person.cpp.s
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Person.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Person.cpp.s
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Manager.cpp
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Manager.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Manager.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Manager.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Manager.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Manager.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Manager.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Manager.cpp
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Manager.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Manager.cpp.i
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Manager.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Manager.cpp.i
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Manager.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Manager.cpp.s
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Manager.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Manager.cpp.s
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Saleman.cpp
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Saleman.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Saleman.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Saleman.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Saleman.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Saleman.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Saleman.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Saleman.cpp
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Saleman.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Saleman.cpp.i
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Saleman.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Saleman.cpp.i
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Saleman.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Saleman.cpp.s
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Saleman.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Saleman.cpp.s
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Salemanager.cpp
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Salemanager.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Salemanager.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Salemanager.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Salemanager.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Salemanager.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Salemanager.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Salemanager.cpp
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Salemanager.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Salemanager.cpp.i
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Salemanager.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Salemanager.cpp.i
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Salemanager.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Salemanager.cpp.s
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Salemanager.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Salemanager.cpp.s
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Technican.cpp
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Technican.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Technican.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Technican.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Technican.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Technican.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Technican.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Technican.cpp
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Technican.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Technican.cpp.i
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Technican.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Technican.cpp.i
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Technican.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\Technican.cpp.s
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\Technican.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\Technican.cpp.s
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/main.cpp
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\main.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\main.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\main.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/flags.make
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/main.cpp
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj -MF CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\main.cpp.obj.d -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\main.cpp.obj -c D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\main.cpp
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\main.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\main.cpp.i
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\main.cpp > CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\main.cpp.i
 
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\main.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\main.cpp.s
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\main.cpp -o CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\src\main.cpp.s
 
 # Object files for target COMPANY_MANAGEMENT_SYSTEM
 COMPANY_MANAGEMENT_SYSTEM_OBJECTS = \
-"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj" \
-"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj" \
-"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj" \
-"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj" \
-"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj" \
-"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj"
+"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj" \
+"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj" \
+"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj" \
+"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj" \
+"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj" \
+"CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj"
 
 # External object files for target COMPANY_MANAGEMENT_SYSTEM
 COMPANY_MANAGEMENT_SYSTEM_EXTERNAL_OBJECTS =
 
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/build.make
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/linkLibs.rsp
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/objects1.rsp
-COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable COMPANY_MANAGEMENT_SYSTEM.exe"
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/build.make
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/linkLibs.rsp
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/objects1.rsp
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\COMPANY_MANAGEMENT_SYSTEM.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/build: COMPANY_MANAGEMENT_SYSTEM.exe
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/build: D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/COMPANY_MANAGEMENT_SYSTEM.exe
 .PHONY : CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/build
 
 CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/clean:

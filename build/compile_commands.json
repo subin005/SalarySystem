@@ -1,38 +1,38 @@
 [
 {
   "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\Person.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\Person.cpp",
-  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Person.cpp",
-  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\Person.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\Person.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Person.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj"
 },
 {
   "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\Manager.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\Manager.cpp",
-  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Manager.cpp",
-  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\Manager.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\Manager.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Manager.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj"
 },
 {
   "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\Saleman.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\Saleman.cpp",
-  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Saleman.cpp",
-  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\Saleman.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\Saleman.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Saleman.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj"
 },
 {
   "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\Salemanager.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\Salemanager.cpp",
-  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Salemanager.cpp",
-  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\Salemanager.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\Salemanager.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Salemanager.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj"
 },
 {
   "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\Technican.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\Technican.cpp",
-  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Technican.cpp",
-  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\Technican.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\Technican.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Technican.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj"
 },
 {
   "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\main.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\main.cpp",
-  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/main.cpp",
-  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\main.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\main.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/main.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj"
 }
 ]

@@ -128,149 +128,149 @@ COMPANY_MANAGEMENT_SYSTEM/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/build
 .PHONY : COMPANY_MANAGEMENT_SYSTEM/fast
 
-Manager.obj: Manager.cpp.obj
-.PHONY : Manager.obj
+src/Manager.obj: src/Manager.cpp.obj
+.PHONY : src/Manager.obj
 
 # target to build an object file
-Manager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj
-.PHONY : Manager.cpp.obj
+src/Manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj
+.PHONY : src/Manager.cpp.obj
 
-Manager.i: Manager.cpp.i
-.PHONY : Manager.i
+src/Manager.i: src/Manager.cpp.i
+.PHONY : src/Manager.i
 
 # target to preprocess a source file
-Manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.i
-.PHONY : Manager.cpp.i
+src/Manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.i
+.PHONY : src/Manager.cpp.i
 
-Manager.s: Manager.cpp.s
-.PHONY : Manager.s
+src/Manager.s: src/Manager.cpp.s
+.PHONY : src/Manager.s
 
 # target to generate assembly for a file
-Manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.s
-.PHONY : Manager.cpp.s
+src/Manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.s
+.PHONY : src/Manager.cpp.s
 
-Person.obj: Person.cpp.obj
-.PHONY : Person.obj
+src/Person.obj: src/Person.cpp.obj
+.PHONY : src/Person.obj
 
 # target to build an object file
-Person.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj
-.PHONY : Person.cpp.obj
+src/Person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj
+.PHONY : src/Person.cpp.obj
 
-Person.i: Person.cpp.i
-.PHONY : Person.i
+src/Person.i: src/Person.cpp.i
+.PHONY : src/Person.i
 
 # target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.i
-.PHONY : Person.cpp.i
+src/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.i
+.PHONY : src/Person.cpp.i
 
-Person.s: Person.cpp.s
-.PHONY : Person.s
+src/Person.s: src/Person.cpp.s
+.PHONY : src/Person.s
 
 # target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.s
-.PHONY : Person.cpp.s
+src/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.s
+.PHONY : src/Person.cpp.s
 
-Saleman.obj: Saleman.cpp.obj
-.PHONY : Saleman.obj
+src/Saleman.obj: src/Saleman.cpp.obj
+.PHONY : src/Saleman.obj
 
 # target to build an object file
-Saleman.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj
-.PHONY : Saleman.cpp.obj
+src/Saleman.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj
+.PHONY : src/Saleman.cpp.obj
 
-Saleman.i: Saleman.cpp.i
-.PHONY : Saleman.i
+src/Saleman.i: src/Saleman.cpp.i
+.PHONY : src/Saleman.i
 
 # target to preprocess a source file
-Saleman.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.i
-.PHONY : Saleman.cpp.i
+src/Saleman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.i
+.PHONY : src/Saleman.cpp.i
 
-Saleman.s: Saleman.cpp.s
-.PHONY : Saleman.s
+src/Saleman.s: src/Saleman.cpp.s
+.PHONY : src/Saleman.s
 
 # target to generate assembly for a file
-Saleman.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.s
-.PHONY : Saleman.cpp.s
+src/Saleman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.s
+.PHONY : src/Saleman.cpp.s
 
-Salemanager.obj: Salemanager.cpp.obj
-.PHONY : Salemanager.obj
+src/Salemanager.obj: src/Salemanager.cpp.obj
+.PHONY : src/Salemanager.obj
 
 # target to build an object file
-Salemanager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj
-.PHONY : Salemanager.cpp.obj
+src/Salemanager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj
+.PHONY : src/Salemanager.cpp.obj
 
-Salemanager.i: Salemanager.cpp.i
-.PHONY : Salemanager.i
+src/Salemanager.i: src/Salemanager.cpp.i
+.PHONY : src/Salemanager.i
 
 # target to preprocess a source file
-Salemanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.i
-.PHONY : Salemanager.cpp.i
+src/Salemanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.i
+.PHONY : src/Salemanager.cpp.i
 
-Salemanager.s: Salemanager.cpp.s
-.PHONY : Salemanager.s
+src/Salemanager.s: src/Salemanager.cpp.s
+.PHONY : src/Salemanager.s
 
 # target to generate assembly for a file
-Salemanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.s
-.PHONY : Salemanager.cpp.s
+src/Salemanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.s
+.PHONY : src/Salemanager.cpp.s
 
-Technican.obj: Technican.cpp.obj
-.PHONY : Technican.obj
+src/Technican.obj: src/Technican.cpp.obj
+.PHONY : src/Technican.obj
 
 # target to build an object file
-Technican.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj
-.PHONY : Technican.cpp.obj
+src/Technican.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj
+.PHONY : src/Technican.cpp.obj
 
-Technican.i: Technican.cpp.i
-.PHONY : Technican.i
+src/Technican.i: src/Technican.cpp.i
+.PHONY : src/Technican.i
 
 # target to preprocess a source file
-Technican.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.i
-.PHONY : Technican.cpp.i
+src/Technican.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.i
+.PHONY : src/Technican.cpp.i
 
-Technican.s: Technican.cpp.s
-.PHONY : Technican.s
+src/Technican.s: src/Technican.cpp.s
+.PHONY : src/Technican.s
 
 # target to generate assembly for a file
-Technican.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.s
-.PHONY : Technican.cpp.s
+src/Technican.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.s
+.PHONY : src/Technican.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -281,24 +281,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... COMPANY_MANAGEMENT_SYSTEM
-	@echo ... Manager.obj
-	@echo ... Manager.i
-	@echo ... Manager.s
-	@echo ... Person.obj
-	@echo ... Person.i
-	@echo ... Person.s
-	@echo ... Saleman.obj
-	@echo ... Saleman.i
-	@echo ... Saleman.s
-	@echo ... Salemanager.obj
-	@echo ... Salemanager.i
-	@echo ... Salemanager.s
-	@echo ... Technican.obj
-	@echo ... Technican.i
-	@echo ... Technican.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/Manager.obj
+	@echo ... src/Manager.i
+	@echo ... src/Manager.s
+	@echo ... src/Person.obj
+	@echo ... src/Person.i
+	@echo ... src/Person.s
+	@echo ... src/Saleman.obj
+	@echo ... src/Saleman.i
+	@echo ... src/Saleman.s
+	@echo ... src/Salemanager.obj
+	@echo ... src/Salemanager.i
+	@echo ... src/Salemanager.s
+	@echo ... src/Technican.obj
+	@echo ... src/Technican.i
+	@echo ... src/Technican.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

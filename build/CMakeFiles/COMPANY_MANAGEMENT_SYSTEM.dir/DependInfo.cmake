@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Manager.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Manager.cpp.obj.d"
-  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Person.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Person.cpp.obj.d"
-  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Saleman.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Saleman.cpp.obj.d"
-  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Salemanager.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Salemanager.cpp.obj.d"
-  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Technican.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/Technican.cpp.obj.d"
-  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/main.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj.d"
+  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Manager.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Manager.cpp.obj.d"
+  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Person.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.obj.d"
+  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Saleman.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Saleman.cpp.obj.d"
+  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Salemanager.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Salemanager.cpp.obj.d"
+  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/Technican.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Technican.cpp.obj.d"
+  "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/main.cpp" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj" "gcc" "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
