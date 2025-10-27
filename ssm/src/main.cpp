@@ -1,5 +1,6 @@
 #include "./function/funclib.hpp"
 #include "./menu/menu.hpp"
+#include "./memory/file.hpp"
 #include <iostream>
 
 // panel p;
@@ -25,13 +26,16 @@ int main(){
     Menu* clear_menu = new Menu(main_menu);
     main_menu->add_submenu("Build",build_menu)
              ->add_submenu("Display",display_menu)
-             ->add_submenu("Clear",clear_menu);
+             ->add_submenu("Clear",clear_menu)
+             ->add_function("Save",save_mls);
     build_menu->add_function("New",build)
               ->add_function("Change",change);
     display_menu->add_function("Display (forall)",display)
                 ->add_function("Display (appointed)",display_index);
     clear_menu->add_function("Clear All",clear)
               ->add_function("Clear by Index",clear_index);
+    //load
+    load_mls();
     //run
     while(true){
         std::string rest_input;
