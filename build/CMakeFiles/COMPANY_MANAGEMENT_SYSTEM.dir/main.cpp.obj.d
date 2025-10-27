@@ -155,4 +155,5 @@ CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj: \
  D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Manager.h \
  D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Technican.h \
  D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Saleman.h \
- D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Salemanager.h
+ D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Salemanager.h \
+ D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\Menu.h
