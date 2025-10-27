@@ -60,7 +60,7 @@ void build(){
         std::getline(std::cin,rest_input);
         dynamic_cast<salemanager*>(new_member)->sale_amount = sale_amount;
     }
-    new_member->id = std::to_string(panel::member_list.size());
+    new_member->id = std::to_string(2000 + id_base++);
     //this can replace by a static variable
     panel::member_list.push_back(new_member);
     // std::cout<<"Member built successfully with ID: "<<new_member->id<<std::endl;

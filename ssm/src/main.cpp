@@ -5,7 +5,7 @@
 
 // panel p;
 std::vector<person*> panel::member_list = {};
-
+int id_base = 0;
 int main(){
     std::cout << R"(
         __          __  _                              

@@ -4,17 +4,21 @@
 #include <iostream>
 
 void load_mls() {
-    std::ifstream infile("assent/member_data.txt");
+    std::ofstream creatf("./member_data.txt");
+    std::ifstream infile("./member_data.txt");
     if (!infile.is_open()) {
         std::cerr << "Can not open member_data.txt !" << std::endl;
         return;
-    }
-
+    } 
     panel::member_list.clear();
 
     std::string id, name, carear, sex, age;
     std::string extra_data; 
-    
+    std::string id_str;
+
+    if(std::getline(infile, id_str)){
+        id_base = std::stoi(id_str);
+    }
     while (std::getline(infile, id) && 
            std::getline(infile, name) && 
            std::getline(infile, age) &&
@@ -60,11 +64,12 @@ void load_mls() {
 
 }
 void save_mls(){
-    std::ofstream outfile("assent/member_data.txt");
+    std::ofstream outfile("./member_data.txt");
     if (!outfile.is_open()) {
             std::cerr << "Can not open " << "member_data.txt" << " to save!" << std::endl;
             return;
         }
+    outfile<< id_base <<'\n';
     for(auto& it : panel::member_list){
         outfile<< it->id<<'\n'<<it->name<<'\n'<<it->age<<'\n'<<it->carear<<'\n'<<it->sex<<'\n';
         if(it->carear == "Technologist") outfile<< dynamic_cast<technologist*>(it)->work_time<<'\n';
