@@ -84,12 +84,12 @@ clean: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/clean
 CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target COMPANY_MANAGEMENT_SYSTEM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target COMPANY_MANAGEMENT_SYSTEM"
 .PHONY : CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles 0
 .PHONY : CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/rule
@@ -101,7 +101,7 @@ COMPANY_MANAGEMENT_SYSTEM: CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/rule
 # codegen rule for target.
 CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target COMPANY_MANAGEMENT_SYSTEM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target COMPANY_MANAGEMENT_SYSTEM"
 .PHONY : CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/codegen
 
 # clean rule for target.

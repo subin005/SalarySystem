@@ -128,6 +128,54 @@ COMPANY_MANAGEMENT_SYSTEM/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/build
 .PHONY : COMPANY_MANAGEMENT_SYSTEM/fast
 
+src/DataPersistence.obj: src/DataPersistence.cpp.obj
+.PHONY : src/DataPersistence.obj
+
+# target to build an object file
+src/DataPersistence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/DataPersistence.cpp.obj
+.PHONY : src/DataPersistence.cpp.obj
+
+src/DataPersistence.i: src/DataPersistence.cpp.i
+.PHONY : src/DataPersistence.i
+
+# target to preprocess a source file
+src/DataPersistence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/DataPersistence.cpp.i
+.PHONY : src/DataPersistence.cpp.i
+
+src/DataPersistence.s: src/DataPersistence.cpp.s
+.PHONY : src/DataPersistence.s
+
+# target to generate assembly for a file
+src/DataPersistence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/DataPersistence.cpp.s
+.PHONY : src/DataPersistence.cpp.s
+
+src/EmployeeManager.obj: src/EmployeeManager.cpp.obj
+.PHONY : src/EmployeeManager.obj
+
+# target to build an object file
+src/EmployeeManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/EmployeeManager.cpp.obj
+.PHONY : src/EmployeeManager.cpp.obj
+
+src/EmployeeManager.i: src/EmployeeManager.cpp.i
+.PHONY : src/EmployeeManager.i
+
+# target to preprocess a source file
+src/EmployeeManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/EmployeeManager.cpp.i
+.PHONY : src/EmployeeManager.cpp.i
+
+src/EmployeeManager.s: src/EmployeeManager.cpp.s
+.PHONY : src/EmployeeManager.s
+
+# target to generate assembly for a file
+src/EmployeeManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/EmployeeManager.cpp.s
+.PHONY : src/EmployeeManager.cpp.s
+
 src/Manager.obj: src/Manager.cpp.obj
 .PHONY : src/Manager.obj
 
@@ -175,6 +223,30 @@ src/Person.s: src/Person.cpp.s
 src/Person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/Person.cpp.s
 .PHONY : src/Person.cpp.s
+
+src/ReportGenerator.obj: src/ReportGenerator.cpp.obj
+.PHONY : src/ReportGenerator.obj
+
+# target to build an object file
+src/ReportGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/ReportGenerator.cpp.obj
+.PHONY : src/ReportGenerator.cpp.obj
+
+src/ReportGenerator.i: src/ReportGenerator.cpp.i
+.PHONY : src/ReportGenerator.i
+
+# target to preprocess a source file
+src/ReportGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/ReportGenerator.cpp.i
+.PHONY : src/ReportGenerator.cpp.i
+
+src/ReportGenerator.s: src/ReportGenerator.cpp.s
+.PHONY : src/ReportGenerator.s
+
+# target to generate assembly for a file
+src/ReportGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMPANY_MANAGEMENT_SYSTEM.dir\build.make CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/ReportGenerator.cpp.s
+.PHONY : src/ReportGenerator.cpp.s
 
 src/Saleman.obj: src/Saleman.cpp.obj
 .PHONY : src/Saleman.obj
@@ -281,12 +353,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... COMPANY_MANAGEMENT_SYSTEM
+	@echo ... src/DataPersistence.obj
+	@echo ... src/DataPersistence.i
+	@echo ... src/DataPersistence.s
+	@echo ... src/EmployeeManager.obj
+	@echo ... src/EmployeeManager.i
+	@echo ... src/EmployeeManager.s
 	@echo ... src/Manager.obj
 	@echo ... src/Manager.i
 	@echo ... src/Manager.s
 	@echo ... src/Person.obj
 	@echo ... src/Person.i
 	@echo ... src/Person.s
+	@echo ... src/ReportGenerator.obj
+	@echo ... src/ReportGenerator.i
+	@echo ... src/ReportGenerator.s
 	@echo ... src/Saleman.obj
 	@echo ... src/Saleman.i
 	@echo ... src/Saleman.s

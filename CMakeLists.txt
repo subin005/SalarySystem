@@ -15,6 +15,9 @@ set(SOURCES
     src/Saleman.cpp
     src/Salemanager.cpp
     src/Technican.cpp
+    src/EmployeeManager.cpp
+    src/DataPersistence.cpp
+    src/ReportGenerator.cpp
     src/main.cpp
 )
 

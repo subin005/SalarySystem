@@ -1,5 +1,5 @@
-CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj: \
- D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\main.cpp \
+CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main_new.cpp.obj: \
+ D:\sophomore_class\software_engineering_training\Company_Management_System\my_version\src\main_new.cpp \
  C:/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \

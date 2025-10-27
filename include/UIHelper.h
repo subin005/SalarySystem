@@ -97,7 +97,7 @@ public:
     // 暂停
     static void pause() {
         setColor(DARK_GRAY);
-        std::cout << "\n按任意键继续...";
+        std::cout << "\n按任意键继续...\n";
         resetColor();
         system("pause > nul");
     }

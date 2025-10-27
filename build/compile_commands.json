@@ -31,6 +31,24 @@
 },
 {
   "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\EmployeeManager.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\EmployeeManager.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/EmployeeManager.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/EmployeeManager.cpp.obj"
+},
+{
+  "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\DataPersistence.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\DataPersistence.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/DataPersistence.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/DataPersistence.cpp.obj"
+},
+{
+  "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\ReportGenerator.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\ReportGenerator.cpp",
+  "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/ReportGenerator.cpp",
+  "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/ReportGenerator.cpp.obj"
+},
+{
+  "directory": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/build",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\COMPANY_MANAGEMENT_SYSTEM.dir\\src\\main.cpp.obj -c D:\\sophomore_class\\software_engineering_training\\Company_Management_System\\my_version\\src\\main.cpp",
   "file": "D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/src/main.cpp",
   "output": "CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/src/main.cpp.obj"
