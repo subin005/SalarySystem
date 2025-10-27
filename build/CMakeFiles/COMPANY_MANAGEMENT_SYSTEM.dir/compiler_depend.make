@@ -708,6 +708,7 @@ CMakeFiles/COMPANY_MANAGEMENT_SYSTEM.dir/main.cpp.obj: D:/sophomore_class/softwa
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
   D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Manager.h \
+  D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Menu.h \
   D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Person.h \
   D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Saleman.h \
   D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Salemanager.h \
@@ -1037,3 +1038,5 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector:
+
+D:/sophomore_class/software_engineering_training/Company_Management_System/my_version/Menu.h:
