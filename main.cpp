@@ -34,33 +34,36 @@ void searchEmployee();
 void modifyEmployee();
 void showStatistics();
 void exportReport();
+void saveDataToFile();
+void loadDataFromFile();
 
 int main() {
     UIHelper::setColor(UIHelper::CYAN);
     cout << R"(
-    ╔══════════════════════════════════════════════════════════════════════╗
-    ║                                                                      ║
-    ║      ____                                         __  __            ║
-    ║     / ___|___  _ __ ___  _ __   __ _ _ __  _   _|  \/  | __ _ _ __ ║
-    ║    | |   / _ \| '_ ` _ \| '_ \ / _` | '_ \| | | | |\/| |/ _` | '__|║
-    ║    | |__| (_) | | | | | | |_) | (_| | | | | |_| | |  | | (_| | |   ║
-    ║     \____\___/|_| |_| |_| .__/ \__,_|_| |_|\__, |_|  |_|\__, |_|   ║
-    ║                         |_|                |___/         |___/      ║
-    ║           ____        _                   ____            _         ║
-    ║          / ___|  __ _| | __ _ _ __ _   _ / ___| _   _ ___| |_ ___ _ __ ___  ║
-    ║          \___ \ / _` | |/ _` | '__| | | |\___ \| | | / __| __/ _ \ '_ ` _ \ ║
-    ║           ___) | (_| | | (_| | |  | |_| | ___) | |_| \__ \ ||  __/ | | | | |║
-    ║          |____/ \__,_|_|\__,_|_|   \__, ||____/ \__, |___/\__\___|_| |_| |_|║
-    ║                                    |___/        |___/                        ║
-    ║                                                                      ║
-    ║                  公司人员和薪酬管理系统 v2.0                         ║
-    ║              Company Management & Salary System                      ║
-    ║                                                                      ║
-    ╚══════════════════════════════════════════════════════════════════════╝
+    ╔══════════════════════════════════════════════════════════════════════════╗
+    ║                                                                          ║
+    ║       ____                                          __  __               ║
+    ║      / ___|___  _ __ ___  _ __   __ _ _ __  _   _ |  \/  | __ _ _ __     ║
+    ║     | |   / _ \| '_ ` _ \| '_ \ / _` | '_ \| | | || |\/| |/ _` | '_ \    ║
+    ║     | |__| (_) | | | | | | |_) | (_| | | | | |_| || |  | | (_| | | | |   ║
+    ║      \____\___/|_| |_| |_| .__/ \__,_|_| |_|\__, ||_|  |_|\__, |_| |_|   ║
+    ║                          |_|                |___/         |___/          ║
+    ║            ____        _                   ____            _             ║
+    ║           / ___|  __ _| | __ _ _ __ _   _ / ___| _   _ ___| |_ ___ _ __  ║
+    ║           \___ \ / _` | |/ _` | '__| | | |\___ \| | | / __| __/ _ \ '_ \ ║
+    ║            ___) | (_| | | (_| | |  | |_| | ___) | |_| \__ \ ||  __/ | | |║
+    ║           |____/ \__,_|_|\__,_|_|   \__, ||____/ \__, |___/\__\___|_| |_|║
+    ║                                     |___/        |___/                   ║
+    ║                                                                          ║
+    ║                      公司人员和薪酬管理系统 v2.0                         ║
+    ║                  Company Management & Salary System                      ║
+    ║                                                                          ║
+    ╚══════════════════════════════════════════════════════════════════════════╝
     )" << endl;
     UIHelper::resetColor();
     
     UIHelper::printInfo("系统初始化中...");
+    loadDataFromFile();  // 启动时加载数据
     UIHelper::printSuccess("系统加载完成！");
     cout << endl;
     
@@ -115,6 +118,7 @@ int main() {
     }
     
     // 清理资源
+    saveDataToFile();  // 退出前保存数据
     delete mainMenu;
     for (auto emp : employees) {
         delete emp;
@@ -137,6 +141,7 @@ void addManager() {
     Person* emp = new Manager(name, level);
     emp->pay();  // 立即计算薪资
     employees.push_back(emp);
+    saveDataToFile();  // 自动保存
     
     UIHelper::printSuccess("经理 " + name + " 添加成功！");
     UIHelper::printInfo("编号: " + emp->getId() + " | 月薪: " + 
@@ -160,6 +165,7 @@ void addTechnican() {
     Person* emp = new Technican(name, level, workHours);
     emp->pay();  // 立即计算薪资
     employees.push_back(emp);
+    saveDataToFile();  // 自动保存
     
     UIHelper::printSuccess("技术人员 " + name + " 添加成功！");
     UIHelper::printInfo("编号: " + emp->getId() + " | 月薪: " + 
@@ -184,6 +190,7 @@ void addSaleman() {
     Person* emp = new Saleman(name, level, sales);
     emp->pay();  // 立即计算薪资
     employees.push_back(emp);
+    saveDataToFile();  // 自动保存
     
     UIHelper::printSuccess("推销员 " + name + " 添加成功！");
     UIHelper::printInfo("编号: " + emp->getId() + " | 月薪: " + 
@@ -210,6 +217,7 @@ void addSalemanager() {
     Person* emp = new Salemanager(name, level, sales, deptSales);
     emp->pay();  // 立即计算薪资
     employees.push_back(emp);
+    saveDataToFile();  // 自动保存
     
     UIHelper::printSuccess("销售经理 " + name + " 添加成功！");
     UIHelper::printInfo("编号: " + emp->getId() + " | 月薪: " + 
@@ -310,6 +318,7 @@ void deleteEmployee() {
             string name = (*it)->getName();
             delete *it;
             employees.erase(it);
+            saveDataToFile();  // 自动保存
             UIHelper::printSuccess("已删除员工: " + name + " (编号: " + id + ")");
             UIHelper::pause();
             return;
@@ -339,6 +348,7 @@ void clearAllEmployees() {
             delete emp;
         }
         employees.clear();
+        saveDataToFile();  // 自动保存
         UIHelper::printSuccess("所有员工已清空！");
     } else {
         UIHelper::printInfo("操作已取消。");
@@ -469,6 +479,7 @@ void modifyEmployee() {
     
     targetEmp->setLevel(newLevel);
     targetEmp->pay();  // 重新计算薪资
+    saveDataToFile();  // 自动保存
     
     UIHelper::printSuccess("员工信息已更新！新月薪: " + to_string((int)targetEmp->getSalary()) + "元");
     UIHelper::pause();
@@ -623,4 +634,127 @@ void exportReport() {
     
     UIHelper::printSuccess("报表已成功导出到文件: " + filename);
     UIHelper::pause();
+}
+
+// 保存数据到文件
+void saveDataToFile() {
+    ofstream outFile("employees_data.txt");
+    
+    if (!outFile.is_open()) {
+        return;  // 静默失败，不影响用户操作
+    }
+    
+    // 保存员工数量
+    outFile << employees.size() << endl;
+    
+    // 保存每个员工的信息
+    for (auto emp : employees) {
+        outFile << emp->getType() << "|"
+                << emp->getId() << "|"
+                << emp->getName() << "|"
+                << emp->getLevel() << "|";
+        
+        // 根据职位类型保存额外信息
+        if (emp->getType() == "经理") {
+            // 经理只需要基本信息
+            outFile << endl;
+        } else if (emp->getType() == "技术人员") {
+            Technican* tech = dynamic_cast<Technican*>(emp);
+            if (tech) {
+                outFile << tech->getWorkHours() << endl;
+            }
+        } else if (emp->getType() == "推销员") {
+            Saleman* sale = dynamic_cast<Saleman*>(emp);
+            if (sale) {
+                outFile << sale->getMonthlySales() << endl;
+            }
+        } else if (emp->getType() == "销售经理") {
+            Salemanager* saleMgr = dynamic_cast<Salemanager*>(emp);
+            if (saleMgr) {
+                outFile << saleMgr->getMonthlySales() << "|"
+                        << saleMgr->getTotalDeptSales() << endl;
+            }
+        }
+    }
+    
+    outFile.close();
+}
+
+// 从文件加载数据
+void loadDataFromFile() {
+    ifstream inFile("employees_data.txt");
+    
+    if (!inFile.is_open()) {
+        UIHelper::printWarning("未找到历史数据文件，从空白开始");
+        return;
+    }
+    
+    // 清空现有数据
+    for (auto emp : employees) {
+        delete emp;
+    }
+    employees.clear();
+    
+    int count;
+    inFile >> count;
+    inFile.ignore();  // 忽略换行符
+    
+    for (int i = 0; i < count; i++) {
+        string line;
+        getline(inFile, line);
+        
+        // 解析行数据
+        size_t pos = 0;
+        string type, id, name;
+        int level;
+        
+        // 提取职位类型
+        pos = line.find('|');
+        type = line.substr(0, pos);
+        line = line.substr(pos + 1);
+        
+        // 提取ID
+        pos = line.find('|');
+        id = line.substr(0, pos);
+        line = line.substr(pos + 1);
+        
+        // 提取姓名
+        pos = line.find('|');
+        name = line.substr(0, pos);
+        line = line.substr(pos + 1);
+        
+        // 提取等级
+        pos = line.find('|');
+        level = stoi(line.substr(0, pos));
+        line = line.substr(pos + 1);
+        
+        // 根据职位类型创建员工对象
+        Person* emp = nullptr;
+        
+        if (type == "经理") {
+            emp = new Manager(name, level);
+        } else if (type == "技术人员") {
+            int workHours = stoi(line);
+            emp = new Technican(name, level, workHours);
+        } else if (type == "推销员") {
+            double sales = stod(line);
+            emp = new Saleman(name, level, sales);
+        } else if (type == "销售经理") {
+            pos = line.find('|');
+            double sales = stod(line.substr(0, pos));
+            double deptSales = stod(line.substr(pos + 1));
+            emp = new Salemanager(name, level, sales, deptSales);
+        }
+        
+        if (emp) {
+            emp->pay();  // 计算薪资
+            employees.push_back(emp);
+        }
+    }
+    
+    inFile.close();
+    
+    if (count > 0) {
+        UIHelper::printSuccess("成功加载 " + to_string(count) + " 名员工数据");
+    }
 }
