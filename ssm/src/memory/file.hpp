@@ -12,14 +12,15 @@ void load_mls() {
 
     panel::member_list.clear();
 
-    std::string id, name, carear, sex;
+    std::string id, name, carear, sex, age;
     std::string extra_data; 
     
     while (std::getline(infile, id) && 
            std::getline(infile, name) && 
+           std::getline(infile, age) &&
            std::getline(infile, carear) && 
            std::getline(infile, sex)) {
-        std::cout<<carear<<std::endl;
+        // std::cout<<carear<<std::endl;
         person* newMember = nullptr;
         if(carear == "Manegement") {
             auto* mana = new manegement();
@@ -50,13 +51,13 @@ void load_mls() {
         
         newMember->id = id;
         newMember->name = name;
+        newMember->age = std::stoi(age);
         newMember->carear = carear;
         newMember->sex = sex;
         
         panel::member_list.push_back(newMember);
     }
 
-    // std::cout << "成功加载 " << panel::member_list.size() << " 个成员数据" << std::endl;
 }
 void save_mls(){
     std::ofstream outfile("assent/member_data.txt");
@@ -65,7 +66,7 @@ void save_mls(){
             return;
         }
     for(auto& it : panel::member_list){
-        outfile<< it->id<<'\n'<<it->name<<'\n'<<it->carear<<'\n'<<it->sex<<'\n';
+        outfile<< it->id<<'\n'<<it->name<<'\n'<<it->age<<'\n'<<it->carear<<'\n'<<it->sex<<'\n';
         if(it->carear == "Technologist") outfile<< dynamic_cast<technologist*>(it)->work_time<<'\n';
         else if(it->carear == "Saleman") outfile<< dynamic_cast<saleman*>(it)->sale_amount<<'\n';
         else if(it->carear == "Saleman Manager") outfile<< dynamic_cast<salemanager*>(it)->sale_amount<<'\n';

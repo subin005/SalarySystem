@@ -74,7 +74,7 @@ void display(){
     for(size_t i=0;i<panel::member_list.size();i++){
         person* member = panel::member_list[i];
         member->pay();
-        std::cout<<"Index: "<<i+1<<", Name: "<<member->name<<", Position: "<<member->carear<<", Age: "<<member->age
+        std::cout<<"Index: "<<i+1<<", ID: "<<member->id<<", Name: "<<member->name<<", Position: "<<member->carear<<", Age: "<<member->age
                  <<", Sex: "<<member->  sex<<", Salary: "<<member->salary<<std::endl;
     } 
 }
@@ -109,7 +109,7 @@ void display_index(){
         if(it->carear == carea_to_find){
             exist_mark =true;
             it->pay();
-            std::cout<<"Index: "<<i++<<", Name: "<<it->name<<", Position: "<<it->carear<<", Age: "<<it->age
+            std::cout<<"Index: "<<i++<<", ID: "<<it->id<<", Name: "<<it->name<<", Position: "<<it->carear<<", Age: "<<it->age
                  <<", Sex: "<<it->  sex<<", Salary: "<<it->salary<<std::endl;
         }
     }
@@ -133,7 +133,7 @@ void clear(){
     }
 }
 void clear_index(){
-    std::cout<<"Enter the index of member to clear: ";
+    std::cout<<"Enter the index of member to clear: "<<std::endl;
     int index = 1;
     for(auto member:panel::member_list){
         std::cout<<"Index: "<< index++ <<", Name: "<<member->name<<std::endl;
