@@ -21,7 +21,6 @@ void addTechnican();
 void addSaleman();
 void addSalemanager();
 void viewAllEmployees();
-void calculateSalary();
 void showSalaryReport();
 void deleteEmployee();
 void clearAllEmployees();
@@ -61,7 +60,6 @@ int main() {
     Menu* mainMenu = new Menu();
     mainMenu->add_submenu("添加员工", addEmployeeMenu)
             ->add_function("查看所有员工", viewAllEmployees)
-            ->add_function("计算员工薪资", calculateSalary)
             ->add_function("显示工资报表", showSalaryReport)
             ->add_function("删除员工", deleteEmployee)
             ->add_function("清空所有员工", clearAllEmployees);
@@ -112,8 +110,10 @@ void addManager() {
     cin >> level;
     
     Person* emp = new Manager(name, level);
+    emp->pay();  // 立即计算薪资
     employees.push_back(emp);
-    cout << "经理 " << name << " 添加成功！编号: " << emp->getId() << endl;
+    cout << "经理 " << name << " 添加成功！编号: " << emp->getId() 
+         << "，月薪: " << fixed << setprecision(2) << emp->getSalary() << "元" << endl;
 }
 
 // 添加技术人员
@@ -130,8 +130,10 @@ void addTechnican() {
     cin >> workHours;
     
     Person* emp = new Technican(name, level, workHours);
+    emp->pay();  // 立即计算薪资
     employees.push_back(emp);
-    cout << "技术人员 " << name << " 添加成功！编号: " << emp->getId() << endl;
+    cout << "技术人员 " << name << " 添加成功！编号: " << emp->getId() 
+         << "，月薪: " << fixed << setprecision(2) << emp->getSalary() << "元" << endl;
 }
 
 // 添加推销员
@@ -149,8 +151,10 @@ void addSaleman() {
     cin >> sales;
     
     Person* emp = new Saleman(name, level, sales);
+    emp->pay();  // 立即计算薪资
     employees.push_back(emp);
-    cout << "推销员 " << name << " 添加成功！编号: " << emp->getId() << endl;
+    cout << "推销员 " << name << " 添加成功！编号: " << emp->getId() 
+         << "，月薪: " << fixed << setprecision(2) << emp->getSalary() << "元" << endl;
 }
 
 // 添加销售经理
@@ -170,8 +174,10 @@ void addSalemanager() {
     cin >> deptSales;
     
     Person* emp = new Salemanager(name, level, sales, deptSales);
+    emp->pay();  // 立即计算薪资
     employees.push_back(emp);
-    cout << "销售经理 " << name << " 添加成功！编号: " << emp->getId() << endl;
+    cout << "销售经理 " << name << " 添加成功！编号: " << emp->getId() 
+         << "，月薪: " << fixed << setprecision(2) << emp->getSalary() << "元" << endl;
 }
 
 // 查看所有员工
@@ -200,24 +206,6 @@ void viewAllEmployees() {
     
     cout << "----------------------------------------" << endl;
     cout << "员工总数: " << employees.size() << endl;
-}
-
-// 计算员工薪资
-void calculateSalary() {
-    cout << "\n========================================" << endl;
-    cout << "正在计算所有员工的月薪..." << endl;
-    cout << "========================================" << endl;
-    
-    if (employees.empty()) {
-        cout << "暂无员工信息！" << endl;
-        return;
-    }
-    
-    for (auto emp : employees) {
-        emp->pay();
-    }
-    
-    cout << "月薪计算完成！共计算 " << employees.size() << " 名员工的薪资。" << endl;
 }
 
 // 显示工资报表
